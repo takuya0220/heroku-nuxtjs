@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run backpack",
+    "dev": "npm run backpack:dev",
+    "start": "npm run build && node ./build/main.js",
+    "build": "npm run backpack:build && npm run nuxt:build",
     "nuxt:build": "nuxt build",
     "nuxt:start": "nuxt start",
-    "backpack" : "backpack",
+    "backpack:dev" : "backpack",
+    "backpack:build" : "backpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
