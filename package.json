@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "backpack",
     "build": "nuxt build",
     "start": "nuxt start",
     "heroku-postbuild": "npm run build",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/takuya0220/heroku-nuxtjs#readme",
   "dependencies": {
+    "backpack-core": "^0.8.3",
+    "express": "^4.16.4",
     "nuxt": "^2.3.4"
   }
 }
