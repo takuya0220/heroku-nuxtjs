@@ -1,0 +1,23 @@
+{
+  "name": "heroku-nuxtjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takuya0220/heroku-nuxtjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takuya0220/heroku-nuxtjs/issues"
+  },
+  "homepage": "https://github.com/takuya0220/heroku-nuxtjs#readme",
+  "dependencies": {
+    "nuxt": "^2.3.4"
+  }
+}
