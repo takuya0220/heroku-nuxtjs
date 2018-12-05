@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "backpack",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "heroku-postbuild": "npm run build",
+    "start": "npm run backpack",
+    "nuxt:build": "nuxt build",
+    "nuxt:start": "nuxt start",
+    "backpack" : "backpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
