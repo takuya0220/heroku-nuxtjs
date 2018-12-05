@@ -9,8 +9,8 @@
     "build": "npm run backpack:build && npm run nuxt:build",
     "nuxt:build": "nuxt build",
     "nuxt:start": "nuxt start",
-    "backpack:dev" : "backpack",
-    "backpack:build" : "backpack build",
+    "backpack:dev": "backpack",
+    "backpack:build": "backpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/takuya0220/heroku-nuxtjs#readme",
   "dependencies": {
+    "@nuxtjs/vuetify": "^0.4.3",
     "backpack-core": "^0.8.3",
     "express": "^4.16.4",
     "nuxt": "^2.3.4"
