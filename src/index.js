@@ -3,7 +3,11 @@ const { Nuxt, Builder } = require("nuxt");
 
 const app = express();
 
-let config = require("../nuxt.config.js");
+const port = process.env.PORT || 3000;
+
+const server = app.listen(port, function() {});
+
+const config = require("../nuxt.config.js");
 config.dev = !(process.env.NODE_ENV === "production");
 const nuxt = new Nuxt(config);
 
